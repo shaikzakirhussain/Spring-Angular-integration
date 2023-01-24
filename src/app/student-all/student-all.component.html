@@ -1,0 +1,17 @@
+<table>
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>COURSE NAME </th>
+        <th>FEES</th>
+    </tr>
+    <tr *ngFor="let s of students">
+        <td>{{s.stdId}}</td>
+        <td>{{s.stdName}}</td>
+        <td>{{s.stdFee}}</td>
+        <td>{{s.stdCourse}}</td>
+        <td><button>delete</button></td>
+        <td><button>edit</button></td>
+    </tr>
+
+</table>
